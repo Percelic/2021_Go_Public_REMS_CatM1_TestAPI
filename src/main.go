@@ -135,7 +135,6 @@ func generateToken() accessToken {
 
 // 생성 토큰 중복 확인
 func checkRepeat(token accessToken) bool {
-	0
 
 	for _, stored := range stored_tokens {
 		if stored.tk1 == token.tk1 {
